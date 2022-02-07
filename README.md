@@ -2,7 +2,18 @@
 
 Generates an API key and add that to a usage plan
 
+## Setup and deploy in lambda
 
+1. Add a usage plan in AWS API gateway
+2. Setup a lambda function in AWS lambda
+3. Create zip file and deploy code to lambda using lambda_build.sh
+4. Add API gateway permissions to lambda security group
+5. Add the following environment variables
+- KEY_NAME : Name of the key
+- KEY_DESC : Description of API key
+- USAGE_PLAN_ID : id of the Usage plan to which the key is to be added
+Note: Suggest converting these to request data if integrated to API gateway
+6. Test lambda
 
 ## Setting up API keys
 
