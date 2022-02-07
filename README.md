@@ -2,6 +2,8 @@
 
 Generates an API key and add that to a usage plan
 
+
+
 ## Setting up API keys
 
 ### API gateway
@@ -30,5 +32,5 @@ Generates an API key and add that to a usage plan
 
 2. Add the key to a usage plan
 ```
-> aws apigateway create-usage-plan-key --usage-plan-id <usage plan id> --key-id <api_key_id> --key-type 'API_KEY' 
+> aws apigateway create-usage-plan-key --usage-plan-id <usage plan id> --key-id <api_key_id> --key-type 'API_KEY'
 ```
