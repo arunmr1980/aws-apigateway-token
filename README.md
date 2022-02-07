@@ -12,7 +12,7 @@ Generates an API key and add that to a usage plan
 - KEY_NAME : Name of the key
 - KEY_DESC : Description of API key
 - USAGE_PLAN_ID : id of the Usage plan to which the key is to be added
-Note: Suggest converting these to request data if integrated to API gateway
+>Note: Suggest converting these environment variables to request data if integrated to API gateway
 6. Test lambda
 
 ## Setting up API keys
