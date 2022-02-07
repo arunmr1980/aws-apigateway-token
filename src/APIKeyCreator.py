@@ -27,7 +27,6 @@ def create_usage_plan_key(api_key_id,usage_plan_id):
     print(response)
 
 
-
 def create_API_key_and_add_to_usage_plan(key_name, key_description, usage_plan_id):
     api_key_id = get_created_API_key_id(key_name, key_description)
     create_usage_plan_key(api_key_id, usage_plan_id)
