@@ -17,7 +17,7 @@ def get_created_API_key_id(key_name, description):
 
 
 def create_usage_plan_key(api_key_id,usage_plan_id):
-    print('\n Adding key to usage plan .... ID ' + USAGE_PLAN_ID)
+    print('\n Adding key to usage plan .... ID ' + usage_plan_id)
     response = client.create_usage_plan_key(
         usagePlanId=usage_plan_id,
         keyId=api_key_id,
@@ -34,4 +34,4 @@ def create_API_key_and_add_to_usage_plan(key_name, key_description, usage_plan_i
     return api_key_id
 
 
-create_API_key_and_add_to_usage_plan("test key name", "testing api keys ", "kkwvxa")
+#create_API_key_and_add_to_usage_plan("test key name", "testing api keys ", "kkwvxa")
